@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter Counter async call (hooks) async mounted hook finished with created hook stuff tests 1`] = `"<div><span class=\\"count\\">0</span> <button>Increment</button> <select></select></div>"`;
+
+exports[`Counter Counter async call (hooks) before mount hook not finished view 1`] = `"<div><span class=\\"count\\">0</span> <button>Increment</button> <!----></div>"`;
+
+exports[`Counter Counter store actions dispatches "incrementStore" when button add value on UI 1`] = `"<div><span class=\\"count\\">1</span> <button>Increment</button> <!----></div>"`;
