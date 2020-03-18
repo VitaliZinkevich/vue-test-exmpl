@@ -8,7 +8,7 @@ export default {
   <select v-if="options">
     <option v-for="i in options" v-bind:key="i.id" :value="i.id">{{i.name}}</option>
   </select>
-</div>
+  </div>
   `,
 
   data() {
@@ -26,11 +26,11 @@ export default {
     },
     ...mapActions(["incrementStore"])
   },
-  mounted: async function mounted() {
+  mounted: async function() {
     let response = await fetch("https://jsonplaceholder.typicode.com/users");
     this.options = response.body;
   },
-  created: function() {
+  created: async function() {
     this.count2 = 10;
   }
 };

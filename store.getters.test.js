@@ -1,5 +1,4 @@
 import getters from "./getters";
-import mutations from "./mutations";
 
 describe("Counter", () => {
   describe("Counter getters", () => {
